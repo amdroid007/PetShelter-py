@@ -9,9 +9,9 @@ from abc import ABC, abstractmethod
 class Animal(ABC):
     
     def __init__ (self, name, age, color):
-        self._name = name
-        self._age = age
-        self._color = color
+        self._name = name # the name of the animal
+        self._age = age   # the age of the animal, (in months)
+        self._color = color # the color of the animal
     
     """
      * Make a sound
